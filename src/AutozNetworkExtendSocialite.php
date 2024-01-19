@@ -2,6 +2,7 @@
 
 namespace SocialiteProviders\AutozNetwork;
 
+use SocialiteProviders\AutozNetwork\Provider;
 use SocialiteProviders\Manager\SocialiteWasCalled;
 
 class AutozNetworkExtendSocialite

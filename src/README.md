@@ -13,9 +13,9 @@ Please see the [Base Installation Guide](https://socialiteproviders.com/usage/),
 ```php
 'autoznetwork' => [
   'host' => env('AUTOZNETWORK_HOST'), // optional, used for testing
-  'client_id' => env('AUTOZNETWORK_CLIENT_ID'),  
-  'client_secret' => env('AUTOZNETWORK_CLIENT_SECRET'),  
-  'redirect' => env('AUTOZNETWORK_REDIRECT_URI') 
+  'client_id' => env('AUTOZNETWORK_CLIENT_ID'),
+  'client_secret' => env('AUTOZNETWORK_CLIENT_SECRET'),
+  'redirect' => env('AUTOZNETWORK_REDIRECT_URI')
 ],
 ```
 
@@ -44,6 +44,8 @@ return Socialite::driver('autoznetwork')->redirect();
 
 ### Returned User fields
 
-- ``id``
-- ``name``
-- ``email``
+- `id`
+- `name`
+- `email`
+- `phone`
+- `avatar`
